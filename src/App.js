@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar.js";
+import Hero from "./components/Hero.js";
 
 function App() {
   return (
@@ -6,6 +7,8 @@ function App() {
     <>
 
       <Navbar />
+
+      <Hero />
 
       <section className="section" id="about">
         <div className="section-title">
