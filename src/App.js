@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar.js";
 import Hero from "./components/Hero.js";
 import About from "./components/About.js";
 import Services from "./components/Services.js";
+import Tours from "./components/Tours.js";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Tours />
 
       <footer className="section footer">
         <ul className="footer-links">
