@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar.js";
 import Hero from "./components/Hero.js";
+import About from "./components/About.js";
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
     <>
 
       <Navbar />
-
       <Hero />
+      <About />
 
 
       <section className="section services" id="services">
