@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar.js";
+
 function App() {
   return (
 
     <>
+
+      <Navbar />
+
       <section className="hero" id="home">
         <div className="hero-banner">
           <h1>continue exploring</h1>
