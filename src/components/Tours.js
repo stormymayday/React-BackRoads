@@ -1,9 +1,10 @@
+import Title from "./Title.js";
+
 const Tours = () => {
     return (
         <section className="section" id="tours">
-            <div className="section-title">
-                <h2>featured <span>tours</span></h2>
-            </div>
+
+            <Title text={'featured'} spanText={'tours'} />
 
             <div className="section-center featured-center">
                 <article className="tour-card">
