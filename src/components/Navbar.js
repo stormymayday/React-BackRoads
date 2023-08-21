@@ -11,6 +11,7 @@ const Navbar = () => {
                     </button>
                 </div>
                 <ul className="nav-links" id="nav-links">
+
                     <li>
                         <a href="#home" className="nav-link"> home </a>
                     </li>
@@ -46,7 +47,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav >
     );
 };
 
