@@ -7,6 +7,7 @@ const Services = () => {
             <Title text={'our'} spanText={'services'} />
 
             <div className="section-center services-center">
+
                 <article className="service">
                     <span className="service-icon"><i className="fas fa-wallet fa-fw"></i></span>
                     <div className="service-info">
