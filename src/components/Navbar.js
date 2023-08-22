@@ -1,4 +1,5 @@
 import logo from '../images/logo.svg';
+import PageLinks from './PageLinks.js';
 import { pageLinks, socialLinks } from '../data.js';
 
 const Navbar = () => {
@@ -14,6 +15,8 @@ const Navbar = () => {
                         <i className="fas fa-bars"></i>
                     </button>
                 </div>
+
+                <PageLinks />
 
                 <ul className="nav-links" id="nav-links">
 
