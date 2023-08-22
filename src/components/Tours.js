@@ -15,7 +15,7 @@ const Tours = () => {
 
                         return (
 
-                            <Tour {...tour} />
+                            <Tour key={tour.id} {...tour} />
 
                         );
 

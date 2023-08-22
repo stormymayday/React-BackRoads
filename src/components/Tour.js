@@ -1,6 +1,6 @@
-const Tour = ({ id, image, title, date, info, location, duration, price }) => {
+const Tour = ({ image, title, date, info, location, duration, price }) => {
     return (
-        <article key={id} className="tour-card">
+        <article className="tour-card">
             <div className="tour-img-container">
                 <img src={image} className="tour-img" alt={title} />
                 <p className="tour-date">{date}</p>
