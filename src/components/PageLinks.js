@@ -9,7 +9,7 @@ const PageLinks = ({ parentClass, itemClass }) => {
                 pageLinks.map((link) => {
 
                     return (
-                        <PageLink {...link} itemClass={itemClass} />
+                        <PageLink key={link.id} {...link} itemClass={itemClass} />
                     );
 
                 })
