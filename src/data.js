@@ -1,3 +1,8 @@
+import tour1 from './images/tour-1.jpeg';
+import tour2 from './images/tour-2.jpeg';
+import tour3 from './images/tour-3.jpeg';
+import tour4 from './images/tour-4.jpeg';
+
 export const pageLinks = [
     {
         id: 1,
@@ -57,5 +62,19 @@ export const services = [
         icon: 'fas fa-socks fa-fw',
         title: 'amazing comfort',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+    },
+];
+
+export const tours = [
+    {
+        id: 1,
+        image: tour1,
+        date: 'August 26th, 2020',
+        title: 'Tibet Adventure',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+        location: 'china',
+        duration: '6 days',
+        price: 'from $2100',
+
     },
 ];
