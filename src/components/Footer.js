@@ -4,6 +4,9 @@ import { pageLinks, socialLinks } from "../data.js";
 const Footer = () => {
     return (
         <footer className="section footer">
+
+            <PageLinks parentClass={'footer-links'} itemClass={'footer-link'} />
+
             <ul className="footer-links">
 
                 {

@@ -1,8 +1,8 @@
 import { pageLinks } from "../data.js";
 
-const PageLinks = () => {
+const PageLinks = ({ parentClass, itemClass }) => {
     return (
-        <ul className="nav-links" id="nav-links">
+        <ul className={parentClass} id="nav-links">
 
             {
                 pageLinks.map((link) => {
@@ -12,7 +12,7 @@ const PageLinks = () => {
                     return (
 
                         <li key={id}>
-                            <a href={href} className="nav-link">{text}</a>
+                            <a href={href} className={itemClass}>{text}</a>
                         </li>
 
                     );
