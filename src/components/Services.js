@@ -1,4 +1,5 @@
 import Title from "./Title.js";
+import Service from "./Service.js";
 import { services } from "../data.js";
 
 const Services = () => {
