@@ -1,3 +1,4 @@
+import PageLinks from "./PageLinks.js";
 import { pageLinks, socialLinks } from "../data.js";
 
 const Footer = () => {
