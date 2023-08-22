@@ -1,5 +1,6 @@
 import logo from '../images/logo.svg';
 import PageLinks from './PageLinks.js';
+import SocialLink from './SocialLink.js';
 import { socialLinks } from '../data.js';
 
 const Navbar = () => {
