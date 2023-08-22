@@ -15,7 +15,7 @@ const Services = () => {
 
                         return (
 
-                            <Service {...service} />
+                            <Service key={service.id} {...service} />
 
                         );
 
