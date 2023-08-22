@@ -1,4 +1,5 @@
 import Title from "./Title.js";
+import Tour from "./Tour.js";
 import { tours } from "../data.js";
 
 const Tours = () => {
