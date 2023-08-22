@@ -24,6 +24,25 @@ const Footer = () => {
             </ul>
 
             <ul className="footer-icons">
+
+                {
+                    socialLinks.map((link) => {
+
+                        const { id, href, icon } = link;
+
+                        return (
+
+                            <li key={id}>
+                                <a href={href} target="_blank" rel="noreferrer" className="footer-icon"
+                                ><i className={icon}></i
+                                ></a>
+                            </li>
+
+                        );
+
+                    })
+                }
+
                 <li>
                     <a href="https://www.twitter.com" target="_blank" className="footer-icon"
                     ><i className="fab fa-facebook"></i
