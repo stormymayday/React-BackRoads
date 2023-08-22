@@ -26,7 +26,7 @@ const Navbar = () => {
 
                             return (
 
-                                <SocialLink {...link} styles={'nav-icon'} />
+                                <SocialLink key={link.id} {...link} styles={'nav-icon'} />
 
 
                             );

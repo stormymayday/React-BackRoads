@@ -15,7 +15,7 @@ const Footer = () => {
 
                         return (
 
-                            <SocialLink {...link} styles={'footer-icon'} />
+                            <SocialLink key={link.id} {...link} styles={'footer-icon'} />
 
                         );
 
