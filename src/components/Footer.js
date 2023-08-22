@@ -7,26 +7,6 @@ const Footer = () => {
 
             <PageLinks parentClass={'footer-links'} itemClass={'footer-link'} />
 
-            <ul className="footer-links">
-
-                {
-                    pageLinks.map((link) => {
-
-                        const { id, href, text } = link;
-
-                        return (
-
-                            <li key={id}>
-                                <a href={href} className="footer-link">{text}</a>
-                            </li>
-
-                        );
-
-                    })
-                }
-
-            </ul>
-
             <ul className="footer-icons">
 
                 {
